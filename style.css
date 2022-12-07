@@ -1,0 +1,147 @@
+header img{
+    width: 80px;
+}
+
+
+
+.banner-section-1{
+    height: 100%;
+    width: 100%;
+    background: url(../images/original.jpg) no-repeat center center / cover;
+}
+
+
+/* --------------Banner-text and Image,Button------------- */
+
+.background-text{
+    padding: 60px 40px;
+    
+}
+
+.col-12 img{
+    width: 50%;
+    
+}
+.col-12 p{
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+.col-12 .second-p{
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.col-12 .first-p{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+    color: #00ED82;
+}
+.big-button{
+    height: 50px;
+    width: 100%;
+    background-color: #00ED82;
+    font-weight: bold;
+    color: black;
+
+}
+
+/* -------------------------Banner text END------------------ */
+
+.library{
+    background-color: #0b0c0f;
+    height: 100%;
+    
+}
+.library-scnd-h{
+    color: #00ED82;
+}
+.library-contant{
+    padding: 88px 20px 50px;
+}
+.container-grid{
+    padding: 0px 0px 100px;
+}
+.card-img-overlay{
+    z-index: 10;
+}
+
+.library-last{
+    margin: 0 10%;
+    padding: 0 8%;
+}
+.col-12 select{
+    background: none;
+    border: none;
+    color: white;
+}
+.select .row{
+    height: 160px;
+}
+/* -------------library section end------------- */
+
+
+/* --------------sports Changing page start------------ */
+
+.sports-page{
+    background: url(./images/sports\ banner.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+.sports-1page{
+    padding: 150px 100px;
+    max-width: 600px;
+    max-height: 300px;
+}
+.col-2 img{
+    width: 30px;
+    height: 30px;
+}
+.col-2{
+    width: 40px;
+    height: 40px;
+    padding: 6px 6px;
+}
+.sports-1page button{
+    font-size: 10px;
+    width: 100px;
+}
+
+
+ul.no-bullets{
+    list-style-type: none;
+}
+
+/*-------- Media Queries------ */
+@media (max-width: 768px){
+    .col-12 .second-p {
+        font-size: 13px;
+    }
+    .col-12 .first-p {
+        font-size: 10px;
+    }
+    .col-12 img{
+        width: 250px;
+    }
+    .big-button{
+        font-size: 10px;
+        height: 30px;
+        width: 100%;
+    }
+    .col-12 .link-2{
+        font-size: 10px;
+    }
+    .sports-page{
+        background: url(/images/sports\ banner1.jpg) no-repeat center center / cover;
+
+    }
+    #hidden{
+        display: none;
+    }
+    .sports-1page{
+       padding-top: 30px;
+    }
+    
+
+
+}
