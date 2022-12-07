@@ -7,7 +7,7 @@ header img{
 .banner-section-1{
     height: 100%;
     width: 100%;
-    background: url(../images/original.jpg) no-repeat center center / cover;
+    background: url(images/original.jpg) no-repeat center center / cover;
 }
 
 
@@ -85,7 +85,7 @@ header img{
 /* --------------sports Changing page start------------ */
 
 .sports-page{
-    background: url(./images/sports\ banner.jpg) no-repeat center center / cover;
+    background: url(images/sports\ banner.jpg) no-repeat center center / cover;
     height: 100vh;
 }
 .sports-1page{
@@ -132,7 +132,7 @@ ul.no-bullets{
         font-size: 10px;
     }
     .sports-page{
-        background: url(/images/sports\ banner1.jpg) no-repeat center center / cover;
+        background: url(images/sports\ banner1.jpg) no-repeat center center / cover;
 
     }
     #hidden{
